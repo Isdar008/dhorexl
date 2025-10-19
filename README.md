@@ -11,5 +11,5 @@ chmod +x gerhana
 ```
 # DNS
 ```
-bash -c 'echo -e "[Resolve]\nDNS=8.8.8.8" > /etc/systemd/resolved.conf && systemctl enable systemd-resolved'
+echo "nameserver 8.8.8.8" > /etc/resolv.conf
 ```
