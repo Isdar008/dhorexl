@@ -9,3 +9,7 @@ curl -s -O https://raw.githubusercontent.com/Isdar008/dhorexl/main/gerhana
 chmod +x gerhana
 ./gerhana
 ```
+# DNS
+```
+bash -c 'echo -e "[Resolve]\nDNS=8.8.8.8" > /etc/systemd/resolved.conf && systemctl enable systemd-resolved'
+```
