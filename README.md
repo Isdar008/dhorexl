@@ -13,3 +13,7 @@ chmod +x gerhana
 ```
 echo "nameserver 8.8.8.8" > /etc/resolv.conf
 ```
+# MESG for deb13
+```
+sed -i '/mesg n/d' ~/.bashrc ~/.profile 2>/dev/null
+```
