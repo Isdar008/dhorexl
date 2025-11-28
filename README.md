@@ -23,3 +23,8 @@ sed -i '/mesg n/d' ~/.bashrc ~/.profile 2>/dev/null
 curl -o /usr/local/bin/extrimer https://raw.githubusercontent.com/Isdar008/dhorexl/main/jail.sh \
 && chmod +x /usr/local/bin/extrimer \
 && extrimer
+```
+# Install at
+```
+apt install at
+```
